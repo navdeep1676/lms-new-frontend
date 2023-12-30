@@ -1,3 +1,9 @@
+import { CourseCard } from "../../CourseCard/CourseCard";
+
 export const PopularCourses = () => {
-  return <h1>Popular Courses</h1>;
+  return (
+    <>
+      <CourseCard />
+    </>
+  );
 };

@@ -1,0 +1,94 @@
+.custom-style {
+  background-color: rgba(26, 182, 157, 0.15);
+  max-width: fit-content;
+  padding: 6px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #1AB69D;
+}
+
+.pop-cont {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 100px;
+  gap: 28px
+}
+
+.custom-paragraph {
+  line-height: 26px;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.course-money {
+  color: #EE4A62;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.course-last-div {
+  align-items: center;
+
+}
+
+.inner-card-abs {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fcb900;
+  color: white;
+  padding: 6px;
+  border-radius: 8px;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.vertical-line {
+  content: '';
+  width: 1px;
+  background-color: grey;
+  height: 20px;
+}
+
+.main-card-pop {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.main-card-pop img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 250px;
+}
+
+.paragraph {
+  margin-bottom: 0px;
+}
+
+.pop-last-para {
+  margin-bottom: 0px;
+  align-items: center;
+  gap: 2px;
+  color: #a7a7a7;
+  ;
+}
+
+.sub-inner-pop-div {
+  width: 80%;
+  margin: 28px auto;
+  gap: 14px
+}
+
+.start-pop {
+  color: #fcb900;
+  font-size: 22px;
+}
+
+
+
+.lib-icon {
+  color: #a7a7a7;
+  font-size: 18px;
+}

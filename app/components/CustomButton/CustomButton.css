@@ -1,0 +1,29 @@
+.btn-container {
+  cursor: pointer;
+}
+button {
+  color: white;
+  border: 1px solid transparent;
+  padding: 13px 28px;
+  font-weight: bold;
+  border-radius: 8px !important;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.fill-one {
+  position: absolute;
+  background-image: linear-gradient(to right, #31b978, #00bcd4);
+  height: 70px;
+  width: 420px;
+  border-radius: 5px;
+  color: white;
+  margin: -40px 0 0 -140px;
+  z-index: -1;
+  transition: all 0.4s ease;
+}
+.btn-container:hover .fill-one {
+  -webkit-transform: translateX(100px);
+  -moz-transform: translateX(100px);
+  transform: translateX(100px);
+}

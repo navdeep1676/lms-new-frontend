@@ -1,0 +1,21 @@
+.bg {
+  background-attachment: scroll;
+}
+
+.slick-slide {
+  transform: scale(0.9);
+}
+.slick-slide .card {
+  transform: rotate(10deg);
+}
+.slick-slide .card .card-body {
+  padding: 10px !important;
+}
+.slick-active .card .card-body {
+  padding: 15px 20px 35px !important;
+}
+
+.slick-active .card {
+  transform: scale(1.2) rotate(0deg);
+  transition: all 0.8s ease-out;
+}

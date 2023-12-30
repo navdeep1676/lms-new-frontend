@@ -1,0 +1,18 @@
+.duration-strip {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 10px;
+}
+.level-strip {
+  background-color: rgba(26, 182, 157, 0.15);
+  padding: 3px 10px;
+  display: inline-block;
+  color: rgba(26, 182, 157, 1);
+  font-weight: 500;
+}

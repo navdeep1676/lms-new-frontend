@@ -1,4 +1,4 @@
-export default function VerifyPage() {
+export default function AboutPage() {
   return (
     <>
       <h1>Verify page</h1>
@@ -7,5 +7,5 @@ export default function VerifyPage() {
         page navigations.
       </p>
     </>
-  )
+  );
 }

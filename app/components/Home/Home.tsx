@@ -15,6 +15,7 @@ import {
 import "./home.css";
 import { Banner } from "../HomeComponents/Banner/Banner";
 import { CategoriesWrapper } from "../HomeComponents/CategoriesWrapper/CategoriesWrapper";
+import { PopularCourses } from "../HomeComponents/PopularCourses/PopularCourses";
 export const Home = () => {
   const dispatch = useDispatch();
   const count = useSelector(selectCount);
@@ -24,6 +25,7 @@ export const Home = () => {
     <>
       <Banner />
       <CategoriesWrapper />
+      <PopularCourses />
     </>
   );
 };
